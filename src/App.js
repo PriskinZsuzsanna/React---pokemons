@@ -46,7 +46,7 @@ function App() {
 
   const getPokemon = async () => {
     
-    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${query}`);
+    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${query.toLowerCase()}`);
     const data = await response.json();
     setLoading(false)
     const sprites = data.sprites
