@@ -68,6 +68,8 @@ button {
 }
 
 .buttons {
+    width: 100%;
+    padding-inline: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,4 +78,6 @@ button {
 
 .buttons button {
     border-radius: 5px;
+    width: 50%;
+    max-width: 287px;
 }
